@@ -157,7 +157,49 @@ body {
         width: 22rem;
     }
 
+    .card__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.4rem;
+      text-align: center;
+      line-height: 1.5;
+    }
     
+    .card__title h1 {
+      color: white;
+      font-size: 30px;
+      max-width: 18rem;
+    }
+    
+    .card__title span {
+      color: hsl(277, 64%, 61%);
+    }
+    
+    .card__title p {
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      max-width: 20rem;
+    }
 
+    .card__stats__responsive {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: space-between;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      gap: 2.5rem;
+      text-align: center;
+    }
 
+    .card__stats__responsive h2 {
+      color: white;
+    }
+    
+    .card__stats__responsive p {
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 13px;
+    }
 }
